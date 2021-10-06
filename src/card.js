@@ -4,6 +4,7 @@ const Cards = function () {
   this.deck = [];
 };
 
+//Create a method to create deck of cards
 Cards.prototype.createDeck = function () {
   for (let suit = 0; suit < this.suits.length; suit++) {
     for (let value = 0; value < this.values.length; value++) {
@@ -17,6 +18,7 @@ Cards.prototype.createDeck = function () {
   return this.deck;
 };
 
+//Create a method to shuffle the deck of cards
 Cards.prototype.shuffle = function () {
   let m = this.deck.length;
   while (m) {
