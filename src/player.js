@@ -1,6 +1,8 @@
 const Player = function (name) {
   this.name = name;
-  this.hand = null;
+  this.hand = [];
 };
 
-Player.prototype.countCards = function () {};
+Player.prototype.countCards = function () {
+  return this.hand.length;
+};

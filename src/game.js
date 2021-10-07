@@ -11,3 +11,11 @@ Game.prototype.dealCards = function () {
     }
   }
 };
+
+function specialCards(value) {
+  if (value === 14) return "Ace";
+  if (value === 13) return "King";
+  if (value === 12) return "Queen";
+  if (value === 11) return "Jack";
+  return value;
+}
