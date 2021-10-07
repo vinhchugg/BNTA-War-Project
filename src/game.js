@@ -48,7 +48,6 @@ Game.prototype.playWar = function () {
       warCard1 = [];
       this.betWarCards = undefined;
       this.inWar = false;
-      console.log(this);
       return `Player 1 has ${specialCards(player0Card.value)} of ${
         player0Card.suit
       } which is bigger than ${specialCards(player1Card.value)} of ${
