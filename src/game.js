@@ -55,3 +55,10 @@ Game.prototype.playRound = function () {
     }
   }
 };
+
+const checkWinner = (player) => {
+  if (player.hand.length === 52) {
+    return true;
+  }
+  return false;
+}
