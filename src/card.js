@@ -29,5 +29,4 @@ Cards.prototype.shuffle = function () {
   return this.deck;
 };
 
-const cards = new Cards();
 module.exports = Cards;

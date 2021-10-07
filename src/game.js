@@ -165,3 +165,5 @@ Game.prototype.playRound = function () {
     return Game.prototype.playWar();
   }
 };
+
+module.exports = Game;

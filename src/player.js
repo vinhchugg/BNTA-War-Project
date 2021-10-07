@@ -6,3 +6,5 @@ const Player = function (name) {
 Player.prototype.countCards = function () {
   return this.hand.length;
 };
+
+module.exports = Player;
