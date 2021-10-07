@@ -29,3 +29,7 @@ Add the "War!" phase of the game to handle situations when players play cards of
 ## Advanced Extensions
 
 Add a `Runner` class which will let the user(s) play the game from the command line. To do this you will need to research how to get input from the user and how to process it within your application. **You should not need to restructure your existing code!** It should be possible to play the game by creating objects and calling their methods from within `Runner`.
+
+## Summary
+
+We worked in a group of three to try and complete this project in one day. We had to design the classes and hand write the code.
