@@ -30,3 +30,4 @@ Cards.prototype.shuffle = function () {
 };
 
 const cards = new Cards();
+module.exports = Cards;
